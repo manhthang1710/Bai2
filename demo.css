@@ -1,0 +1,118 @@
+#wrapper {
+    width: 980px;
+    margin: 0px auto;
+    color: white;
+    /* background-color: teal; */
+}
+#header {
+    
+    height: 140px;
+    margin-bottom: 20px;
+    padding: 10px;
+    
+}
+#img2 {
+    float: right;
+    margin-top: 13px; 
+}
+#header h1{
+    padding-top: 15px;
+    margin-bottom: -18px;  
+
+}
+#wp_content {
+    color: black;
+    height: 630px;
+}
+#sidebar {
+    width: 270px;
+    height: 450px;
+    float: left;
+}
+#sidebar h1 {
+    padding-top: 120px;
+    margin-bottom: -18px;
+}
+#content {                                                                                                                                                                     margin: 0px auto; 
+    
+    width: 690px;
+    height: 600px;
+    float: right;
+}
+#content h1 {   
+    margin-bottom: -18px;   
+}
+#content b {
+    margin-bottom: 10px;
+}
+#content ul li {
+
+    height: 180px;
+     list-style-type: none;
+     margin-left: -35px;
+     border-bottom: 2px dashed;
+}
+#content ul li:last-child { border-bottom: none ; }
+#content ul li img {
+    float: left;
+    margin-right: 10px;
+    display: block;
+    position: relative;
+    width: 200px;
+    height: 125px;
+}
+
+#footer {
+    height: 70px ;
+    color: black;
+    margin-top: 20px;
+}
+#footer div{    
+    height: 56px;
+    background-color: rgb(63, 103, 212);
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+    margin-top: 10px;
+}
+#footer img {
+    height: 500px;
+}
+#size {
+    padding-top: 15px;
+    display: inline-block;                  
+}
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(63, 103, 212);
+  }
+  
+nav ul li {
+    border-right: 1px dotted #fff;
+    float: left;
+  }
+  
+nav ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+nav ul li a:hover {
+    background-color: rgb(51, 76, 145);
+  }
+nav ul li:last-child { border-right: none ; }
+#sidebar ul li img {
+      width: 250px;
+      margin-top: 10px;
+  }
+#sidebar ul {
+    margin-left: 20px;
+    list-style-type: none;
+    padding: 0;
+    overflow: hidden;
+  }
